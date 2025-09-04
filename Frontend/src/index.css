@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --text-shadow-outline: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+    --box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+@utility text-shadow-outline {
+  text-shadow: var(--text-shadow-outline);
+}
+
+@utility box-shadow {
+  box-shadow: var(--box-shadow);
+}
