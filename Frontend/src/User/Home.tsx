@@ -4,8 +4,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faArrowRight,
-  fas,
-  faSquareArrowUpRight,
+  
 } from "@fortawesome/free-solid-svg-icons";
 
 function Home() {
